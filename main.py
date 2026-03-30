@@ -7,10 +7,11 @@ def add_expenses():
 
 
     expense={
-        "description": despcription,
+        "description": description,
         "date": date,
         "amount": amount
     }
 
-    
+    expenses.append(expense)
+    print("Expense added successfully!\n")
 
