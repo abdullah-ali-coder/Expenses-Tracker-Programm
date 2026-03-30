@@ -15,3 +15,9 @@ def add_expenses():
     expenses.append(expense)
     print("Expense added successfully!\n")
 
+def view_expenses():
+    if not expenses:
+        print("No expenses yet. \n")
+        return
+    
+    
