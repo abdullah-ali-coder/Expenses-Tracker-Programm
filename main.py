@@ -20,4 +20,8 @@ def view_expenses():
         print("No expenses yet. \n")
         return
     
-    
+    print("\nList of Expenses:")
+    for i, expense in enumerate(expenses, start=1):
+        print(f"{i}. {expense['date']} - {expense['description']} : {expense['amount']}")
+        print("")
+        
