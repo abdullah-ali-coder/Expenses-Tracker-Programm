@@ -42,3 +42,30 @@ def view_expenses():
 def total_expenses():
     total = sum(expense['amount'] for expense in expenses)
     print(f"Total Expenses: {total}\n")
+
+
+
+def main():
+    while True:
+        print("1. Add Expense")
+        print("2. View Expenses")
+        print("3. Total Expenses")
+        print("4. Exit")
+        
+        choice = input("Choose an option: ")
+        
+        if choice == "1":
+            add_expenses()
+        elif choice == "2":
+            view_expenses()
+        elif choice == "3":
+            total_expenses()
+        elif choice == "4":
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice, try again.\n")
+
+
+if __name__ == "__main__":
+    main()
