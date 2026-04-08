@@ -14,9 +14,9 @@ python : Expense_Tracker.py
 
 **Screenshots**
 
-![Menu]("E:\Expense-Tracker\image\menu-Expenses-Tracker.png")
-![Add]("E:\Expense-Tracker\image\AddExpense-Expenses-Tracker.png")
-![View]("E:\Expense-Tracker\image\ExpensesList-Expenses-Tracker.png")
+![Menu]("image\menu-Expenses-Tracker.png")
+![Add]("image\AddExpense-Expenses-Tracker.png")
+![View]("image\ExpensesList-Expenses-Tracker.png")
 
 **Future Plans**
 1-Save data (JSON)
