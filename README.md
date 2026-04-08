@@ -2,6 +2,12 @@
 
 Simple console-based expense tracker built with Python.
 
+
+## Project Structure
+- `main.py`: The entry point of the application (Main Menu).
+- `database.py`: Handles data persistence using JSON.
+- `expenses.json`: (Auto-generated) Stores your expense data.
+
 **Features**
 1-Add expenses
 2-View all expenses
@@ -9,7 +15,8 @@ Simple console-based expense tracker built with Python.
 4-Clean console interface
 
 **Run**
-python : Expense_Tracker.py
+**Run**
+python main.py
 
 
 **Screenshots**
@@ -19,7 +26,7 @@ python : Expense_Tracker.py
 ![View]("image\ExpensesList-Expenses-Tracker.png")
 
 **Future Plans**
-1-Save data (JSON)
+1-Save data (JSON) [Done]
 2-Add categories
 3-Build GUI
 
